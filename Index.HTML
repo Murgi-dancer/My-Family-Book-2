@@ -1,0 +1,33 @@
+<html><head>
+  <link rel="stylesheet" href="./Family Book_files/style.css">  
+  <title> Family Book</title></head>
+  
+  <Body>
+    <h1> Family Book</h1>
+    
+    <img id="family_img">
+    
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script type="text/javascript" async="" src="./Family Book_files/analytics.js.download"></script><script async="" src="./Family Book_files/js"></script><script>
+   var names=[
+   "1. My Father (Abhishek Kumar)",
+   "2. My Mother (Annu Singh)",
+  "3. Me (Anishka Singh)"
+   ];
+ var images=[
+   "papa.jpg",
+   "mummy.jpg",
+   "my.jpg"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==3){
+     i=0;
+   }}
+  </script>
+  <script async="" src="./Family Book_files/wd.js.download"></script>
+</body></html>
